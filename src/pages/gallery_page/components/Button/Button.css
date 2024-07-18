@@ -1,0 +1,21 @@
+.filter button {
+    border: none;
+    background-color: transparent;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.filter button:hover {
+    cursor: pointer;
+    background-color: #A5ADFF;
+    border-radius: 3rem;
+}
+
+.filter button:focus {
+    cursor: pointer;
+    background-color: #A5ADFF;
+    border-radius: 3rem;
+}

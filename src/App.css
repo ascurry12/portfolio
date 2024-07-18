@@ -1,34 +1,37 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 nav {
-  background-color: indianred;
+  background-color: #8796fa;
   width: 100%;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
 }
 
 nav li {
   float: left;
+  padding: 0px 10px;
 }
 
 nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 20px;
   text-decoration: none;
 }
 
 nav li a:hover {
-  background-color: rgb(201, 106, 106);
+  background-color: #9BA9FF;
+  border-radius: 3rem;
 }
+
 
 .App-logo {
   height: 40vmin;

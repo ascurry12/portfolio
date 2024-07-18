@@ -1,0 +1,17 @@
+.filter-nav {
+    background-color: transparent;
+    display: block;
+    text-align: center;
+}
+
+.filter-nav li {
+    padding: 10px 16px;
+    display: inline-block;
+}
+
+h1 {
+    color: #A5ADFF;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Gluten", cursive;
+}

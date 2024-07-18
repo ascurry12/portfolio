@@ -1,7 +1,7 @@
 import GalleryItem from "./GalleryItem";
 import './FullGallery.css';
-import testimage from './images/testimage.png';
-import testimage2 from './images/testimage2.png';
+import testimage from '../images/testimage.png';
+import testimage2 from '../images/testimage2.png';
 
 
 function FullGallery() {

@@ -1,6 +1,6 @@
 import GalleryModal from "./GalleryModal";
-import star from './images/star.png';
-import innovation from './images/innovation.png';
+import star from '../images/star.png';
+import innovation from '../images/innovation.png';
 import './GalleryItem.css';
 
 function GalleryItem({ item }) {
