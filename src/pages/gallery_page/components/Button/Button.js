@@ -1,6 +1,6 @@
 import './Button.css';
 
-function Button({ onClick, content, style }) {
+function Button({ onClick, content }) {
     return (
         <div className='filter'>
             <button onClick={onClick}>{content}</button>
