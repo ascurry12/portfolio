@@ -32,6 +32,10 @@ function FullGallery() {
             <div className='gallery-item'>
                 <GalleryItem item={galleryItems[0]} />
             </div>
+
+            <div className='gallery-item'>
+                <GalleryItem item={galleryItems[0]} />
+            </div>
             <div className='gallery-item'>
                 <GalleryItem item={galleryItems[1]} />
             </div>
@@ -40,6 +44,12 @@ function FullGallery() {
             </div>
             <div className='gallery-item'>
                 <GalleryItem item={galleryItems[1]} />
+            </div>
+            <div className='gallery-item'>
+                <GalleryItem item={galleryItems[0]} />
+            </div>
+            <div className='gallery-item'>
+                <GalleryItem item={galleryItems[0]} />
             </div>
             <div className='gallery-item'>
                 <GalleryItem item={galleryItems[0]} />

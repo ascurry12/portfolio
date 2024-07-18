@@ -1,7 +1,7 @@
 .full-gallery {
     column-count: 4;
-    column-fill: balance;
-    column-gap: 0px;
-    text-align: center;
-    width: 80%;
+    column-fill: initial;
+    column-gap: 15px;
+    margin: auto;
+    width: 70%;
 }

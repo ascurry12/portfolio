@@ -10,7 +10,7 @@ function GalleryItem({ item }) {
             <img src={image}></img>
             <span className="item_footer">
                 <h4>{title}</h4>
-                <img src={wip ? star : innovation}></img>
+                {/* <img src={wip ? star : innovation}></img> */}
             </span>
         </div>
     )
