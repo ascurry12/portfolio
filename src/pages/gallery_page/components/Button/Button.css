@@ -14,7 +14,13 @@
     border-radius: 3rem;
 }
 
-.filter button:focus {
+.filter-active button {
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
     cursor: pointer;
     background-color: #A5ADFF;
     border-radius: 3rem;
