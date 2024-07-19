@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import './GalleryModal.css';
-import close from '../images/close.png';
+import x from '../images/x.svg';
 
 function GalleryModal({ children, openModal, closeModal }) {
     const ref = useRef();
@@ -12,7 +12,7 @@ function GalleryModal({ children, openModal, closeModal }) {
     return (
         <div className='gallery-modal'>
             <dialog ref={ref} onClose={closeModal}>
-                <button onClick={closeModal}>close</button>
+                <button onClick={closeModal}><img src={x}></img></button>
                 {children}
             </dialog>
         </div>

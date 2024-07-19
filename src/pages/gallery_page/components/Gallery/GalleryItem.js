@@ -1,4 +1,5 @@
 import GalleryModal from "./GalleryModal";
+import Tag from "../Tag/Tag";
 import './GalleryItem.css';
 import { useState } from "react";
 
@@ -12,6 +13,8 @@ function GalleryItem({ item }) {
                 <img src={image}></img>
                 <span className="item-footer">
                     <p>{title}</p>
+                    {medium ? <Tag content={medium} type={medium} /> : null}
+                    {wip ? <Tag content="Work in progress" type="wip" /> : <Tag content="Complete" type="done" />}
                 </span>
             </div>
 
@@ -19,9 +22,11 @@ function GalleryItem({ item }) {
                 openModal={modal}
                 closeModal={() => setModal(false)}
             >
+                <h3>{title}</h3>
                 <img className='art' src={image}></img>
-                <h4>{title}</h4>
                 <p>{description}</p>
+                {medium ? <Tag content={medium} type={medium} /> : null}
+                {wip ? <Tag content="Work in progress" type="wip" /> : <Tag content="Complete" type="done" />}
             </GalleryModal>
         </div>
     )

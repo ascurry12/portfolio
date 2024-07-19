@@ -10,6 +10,17 @@
     width: 100%;
 }
 
+.gallery-modal img {
+    width: 14%;
+}
+
+.gallery-modal h3 {
+    background-color: #9ba8ff79;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 2px;
+}
+
 .gallery-modal:hover {
     cursor: default;
 }
@@ -18,8 +29,17 @@
     border: none;
     background-color: transparent;
     float: right;
+    margin-bottom: 10px;
+
 }
 
-.gallery-modal button:hover {
+.gallery-modal button img {
+    float: right;
+    padding: 5px;
+}
+
+.gallery-modal button img:hover {
     cursor: pointer;
+    border-radius: 20%;
+    background-color: rgba(211, 211, 211, 0.21);
 }
