@@ -1,0 +1,25 @@
+.gallery-modal dialog {
+    border-radius: 15px;
+    border: solid 2px #9BA9FF;
+    width: 30%;
+}
+
+.gallery-modal .art {
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+}
+
+.gallery-modal:hover {
+    cursor: default;
+}
+
+.gallery-modal button {
+    border: none;
+    background-color: transparent;
+    float: right;
+}
+
+.gallery-modal button:hover {
+    cursor: pointer;
+}

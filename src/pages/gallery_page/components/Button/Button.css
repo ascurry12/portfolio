@@ -10,13 +10,14 @@
 
 .filter button:hover {
     cursor: pointer;
+    color: white;
     background-color: #A5ADFF;
     border-radius: 3rem;
 }
 
 .filter-active button {
     border: none;
-    color: black;
+    color: white;
     padding: 15px 15px;
     text-align: center;
     display: inline-block;

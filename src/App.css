@@ -5,6 +5,8 @@ body {
 nav {
   background-color: #8796fa;
   width: 100%;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
 }
 
 nav ul {
