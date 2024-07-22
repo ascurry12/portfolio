@@ -21,6 +21,16 @@
     animation: expand;
 }
 
+.span-p {
+    background-color: #9ba8ff79;
+    width: fit-content;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    padding: 2px;
+}
+
 .item-footer {
     text-align: center;
 }

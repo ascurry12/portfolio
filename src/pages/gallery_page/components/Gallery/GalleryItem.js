@@ -12,7 +12,7 @@ function GalleryItem({ item }) {
             <div className="item-container" onClick={() => setModal(true)}>
                 <img src={image}></img>
                 <span className="item-footer">
-                    <p>{title}</p>
+                    <p className="span-p">{title}</p>
                     {medium ? <Tag content={medium} type={medium} /> : null}
                     {wip ? <Tag content="Work in progress" type="wip" /> : <Tag content="Complete" type="done" />}
                 </span>
