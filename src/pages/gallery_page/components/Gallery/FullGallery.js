@@ -7,8 +7,34 @@ import testimage4 from '../images/testimage4.png';
 import testimage5 from '../images/testimage5.png';
 import testimage6 from '../images/testimage6.png';
 import testimage7 from '../images/testimage7.png';
+import plumbob from '../images/plumbob.png';
+import star from '../images/star.png';
+import tearoom from '../images/tearoomwip.png';
+
+
+/* type GalleryItemProps = {
+    title: String,
+    image: String,
+    description: String,
+    medium: 'Digital' | 'Physical',
+    wip: boolean
+} */
 
 const galleryItems = [
+    {
+        title: 'Tea Room',
+        image: tearoom,
+        description: 'I made this using blender too!',
+        medium: 'Digital',
+        wip: true
+    },
+    {
+        title: 'Plumbob (by me, actually)',
+        image: plumbob,
+        description: 'I made this using blender!',
+        medium: 'Digital',
+        wip: false
+    },
     {
         title: 'Jake, BMO, and Finn',
         image: testimage,
@@ -21,6 +47,13 @@ const galleryItems = [
         image: testimage2,
         description: 'Jake from \'Adventure Time\'',
         medium: 'Physical',
+        wip: false
+    },
+    {
+        title: 'Blender Star',
+        image: star,
+        description: 'I also made this using blender!',
+        medium: 'Digital',
         wip: false
     },
     {
@@ -57,7 +90,8 @@ const galleryItems = [
         description: 'She\'s the president!',
         medium: 'Digital',
         wip: true
-    }
+    },
+
 
 ]
 
