@@ -89,7 +89,7 @@ const galleryItems = [
         image: testimage7,
         description: 'She\'s the president!',
         medium: 'Digital',
-        wip: true
+        wip: false
     },
 
 
