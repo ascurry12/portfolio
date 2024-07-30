@@ -22,13 +22,6 @@ import tearoom from '../images/tearoomwip.png';
 
 const galleryItems = [
     {
-        title: 'Tea Room',
-        image: tearoom,
-        description: 'I made this using blender too!',
-        medium: 'Digital',
-        wip: true
-    },
-    {
         title: 'Jake, BMO, and Finn',
         image: testimage,
         description: 'Jake, BMO, and Finn from \'Adventure Time\'',
